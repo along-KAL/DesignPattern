@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.along.bridgepattern.MLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.along.bridgepattern.MainActivity">
+
+
+    <com.example.along.bridgepattern.MLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="480dp">
+
+        <com.example.along.bridgepattern.MLinearLayout
+            android:layout_width="90dp"
+            android:layout_height="90dp">
+
+
+
+        </com.example.along.bridgepattern.MLinearLayout>
+
+    </com.example.along.bridgepattern.MLinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="3345233345233345233345
+        233345233345233345233345233345233345233345
+        233345233345233345233345233345233345233345
+        233345233345233345233345233345233345233345
+        233345233345233345233345233345233345233345
+        23334523334523334523"/>
+    <com.example.along.bridgepattern.MListView
+        android:id="@+id/lv_content"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+</com.example.along.bridgepattern.MLinearLayout>
